@@ -640,40 +640,6 @@ footer {
         width: 100%;
         margin: 0 auto;
       }
-      #main-carousel {
-        .splide__slide img {
-          width: 100%;
-          height: 100%;
-          object-fit: cover;
-          border-radius: 16px;
-          -webkit-border-radius: 16px;
-          -moz-border-radius: 16px;
-          -ms-border-radius: 16px;
-          -o-border-radius: 16px;
-        }
-      }
-      #thumbnail-carousel {
-        padding: 1rem 0;
-
-        .splide__slide {
-          cursor: pointer;
-          opacity: 0.5;
-        }
-        .splide__slide.is-active {
-          opacity: 1;
-          border: 0;
-        }
-        .splide__slide img {
-          width: 100%;
-          height: 100%;
-          object-fit: cover;
-          border-radius: 4px;
-          -webkit-border-radius: 4px;
-          -moz-border-radius: 4px;
-          -ms-border-radius: 4px;
-          -o-border-radius: 4px;
-        }
-      }
     }
     .detail {
       .section {
