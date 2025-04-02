@@ -664,37 +664,40 @@
       });
     </script>
 
-<script>
-  document.addEventListener('DOMContentLoaded', function () {
-    var main = new Splide('#main-carousel', {
-      type: 'fade',
-      rewind: true,
-      pagination: false,
-      arrows: false,
-    });
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        var main = new Splide('#main-carousel', {
+          type: 'fade',
+          rewind: true,
+          pagination: false,
+          arrows: false,
+        });
 
-    var thumbnails = new Splide('#thumbnail-carousel', {
-      fixedWidth: 100,
-      fixedHeight: 60,
-      autoWidth: true,
-      gap: 10,
-      rewind: true,
-      pagination: false,
-      focus: 'center',
-      isNavigation: true,
-      dragMinThreshold: 10,
-      perPage: 6,
-      breakpoints: {
-        600: {
-        },
-      },
-    });
+        var thumbnails = new Splide('#thumbnail-carousel', {
+          fixedWidth: 100,
+          fixedHeight: 60,
+          autoWidth: true,
+          gap: 10,
+          rewind: true,
+          pagination: false,
+          focus: 'center',
+          isNavigation: true,
+          dragMinThreshold: 10,
+          perPage: 6,
+          breakpoints: {
+            600: {
+              fixedWidth: '4rem',
+              fixedHeight: '2rem',
+              gap: '1rem',
+            },
+          },
+        });
 
-    main.sync(thumbnails);
-    main.mount();
-    thumbnails.mount();
-  });
-</script>
+        main.sync(thumbnails);
+        main.mount();
+        thumbnails.mount();
+      });
+    </script>
 
 
     <script>$('#accordion').collapse()</script>
