@@ -639,6 +639,9 @@ footer {
       .gallery-container {
         width: 100%;
         margin: 0 auto;
+        .splide__slide.is-active.is-visible {
+          width: 80px;
+        }
       }
     }
     .detail {

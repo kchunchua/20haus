@@ -617,6 +617,9 @@ footer .copyright {
     width: 100%;
     margin: 0 auto;
   }
+  .wrapper .gallery .gallery-container .splide__slide.is-active.is-visible {
+    width: 80px;
+  }
   .wrapper .detail .section .detail-container .box-1,
 .wrapper .detail .section .detail-container .box-2,
 .wrapper .detail .section .detail-container .box-3 {
